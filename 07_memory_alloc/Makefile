@@ -1,4 +1,4 @@
-obj-m += my_cdev.o #this line tells the kernels build system we are building a loadable module
+obj-m += memory_alloc.o #this line tells the kernels build system we are building a loadable module
 # obj-m is a list of object files that get compiled into ko files 
 
 all: 
